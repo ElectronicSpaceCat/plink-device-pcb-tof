@@ -1,0 +1,1383 @@
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.9)-1")
+
+  (general
+    (thickness 0.8)
+    (drawings 53)
+    (tracks 0)
+    (zones 0)
+    (modules 106)
+    (nets 1)
+  )
+
+  (page User 150.012 115.011)
+  (title_block
+    (title "CC TOF")
+    (date 2020-11-30)
+    (rev 000)
+  )
+
+  (layers
+    (0 F.Cu signal)
+    (31 B.Cu signal)
+    (32 B.Adhes user)
+    (33 F.Adhes user)
+    (34 B.Paste user)
+    (35 F.Paste user)
+    (36 B.SilkS user)
+    (37 F.SilkS user)
+    (38 B.Mask user)
+    (39 F.Mask user)
+    (40 Dwgs.User user)
+    (41 Cmts.User user)
+    (42 Eco1.User user)
+    (43 Eco2.User user)
+    (44 Edge.Cuts user)
+    (45 Margin user)
+    (46 B.CrtYd user)
+    (47 F.CrtYd user)
+    (48 B.Fab user)
+    (49 F.Fab user)
+  )
+
+  (setup
+    (last_trace_width 0.15)
+    (user_trace_width 0.15)
+    (user_trace_width 0.15)
+    (user_trace_width 0.3)
+    (user_trace_width 0.3)
+    (user_trace_width 0.15)
+    (user_trace_width 0.3)
+    (user_trace_width 0.15)
+    (user_trace_width 0.3)
+    (trace_clearance 0.2)
+    (zone_clearance 0.15)
+    (zone_45_only no)
+    (trace_min 0)
+    (via_size 0.6)
+    (via_drill 0.3)
+    (via_min_size 0.6)
+    (via_min_drill 0.3)
+    (user_via 0.6 0.3)
+    (uvia_size 0.3)
+    (uvia_drill 0.1)
+    (uvias_allowed no)
+    (uvia_min_size 0.2)
+    (uvia_min_drill 0.1)
+    (edge_width 0.05)
+    (segment_width 0.2)
+    (pcb_text_width 0.3)
+    (pcb_text_size 1.5 1.5)
+    (mod_edge_width 0.12)
+    (mod_text_size 1 1)
+    (mod_text_width 0.15)
+    (pad_size 1.368 1.368)
+    (pad_drill 0.86)
+    (pad_to_mask_clearance 0)
+    (aux_axis_origin 0 0)
+    (grid_origin 76.31 40.01)
+    (visible_elements 7FFFFF7F)
+    (pcbplotparams
+      (layerselection 0x010fc_ffffffff)
+      (usegerberextensions false)
+      (usegerberattributes true)
+      (usegerberadvancedattributes true)
+      (creategerberjobfile true)
+      (excludeedgelayer true)
+      (linewidth 0.100000)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15.000000)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotinvisibletext false)
+      (padsonsilk false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 1)
+      (scaleselection 1)
+      (outputdirectory ""))
+  )
+
+  (net 0 "")
+
+  (net_class Default "This is the default net class."
+    (clearance 0.2)
+    (trace_width 0.15)
+    (via_dia 0.6)
+    (via_drill 0.3)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+  )
+
+  (net_class LOGIC ""
+    (clearance 0.2)
+    (trace_width 0.15)
+    (via_dia 0.6)
+    (via_drill 0.3)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+  )
+
+  (net_class PWR/GND ""
+    (clearance 0.2)
+    (trace_width 0.3)
+    (via_dia 0.6)
+    (via_drill 0.3)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063B76)
+    (at 47.51 68.079 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063B6E)
+    (at 47.51 60.629 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063B66)
+    (at 47.51 53.179 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063B5E)
+    (at 47.51 45.729 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063B56)
+    (at 47.51 38.279 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063B4A)
+    (at 47.51 65.745 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063B42)
+    (at 47.51 58.295 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063B3A)
+    (at 47.51 50.845 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063B32)
+    (at 47.51 43.395 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063B2A)
+    (at 47.51 35.945 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063B1E)
+    (at 105.98 66.571 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063B16)
+    (at 105.98 59.121 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063B0E)
+    (at 105.98 51.671 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063B06)
+    (at 105.98 44.221 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063AFE)
+    (at 105.98 36.771 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063AF2)
+    (at 105.98 67.349 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063AEA)
+    (at 105.98 59.899 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063AE2)
+    (at 105.98 52.449 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063ADA)
+    (at 105.98 44.999 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063AD2)
+    (at 105.98 37.549 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063AC6)
+    (at 105.98 68.905 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063ABE)
+    (at 105.98 61.455 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063AB6)
+    (at 105.98 54.005 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063AAE)
+    (at 105.98 46.555 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063AA6)
+    (at 105.98 39.105 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063A9A)
+    (at 47.51 66.523 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063A92)
+    (at 47.51 59.073 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063A8A)
+    (at 47.51 51.623 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063A82)
+    (at 47.51 44.173 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063A7A)
+    (at 47.51 36.723 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063A6E)
+    (at 105.98 68.127 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063A66)
+    (at 105.98 60.677 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063A5E)
+    (at 105.98 53.227 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063A56)
+    (at 105.98 45.777 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063A4E)
+    (at 105.98 38.327 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063A42)
+    (at 47.51 67.301 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063A3A)
+    (at 47.51 59.851 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063A32)
+    (at 47.51 52.401 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063A2A)
+    (at 47.51 44.951 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063A22)
+    (at 47.51 37.501 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063A16)
+    (at 105.98 65.793 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063A0E)
+    (at 105.98 58.343 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 62063A06)
+    (at 105.98 50.893 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 620639FE)
+    (at 105.98 43.443 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 620639F6)
+    (at 105.98 35.993 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 620639EA)
+    (at 47.51 68.857 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 620639E2)
+    (at 47.51 61.407 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 620639DA)
+    (at 47.51 53.957 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 620639D2)
+    (at 47.51 46.507 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 620639CA)
+    (at 47.51 39.057 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2B59)
+    (at 41.46 28.505 180)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 180) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2B55)
+    (at 43.304 28.505 180)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 180) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2B51)
+    (at 42.52 28.505 180)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 180) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2B4D)
+    (at 44.088 28.505 180)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 180) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2B49)
+    (at 44.872 28.505 180)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 180) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2B45)
+    (at 45.656 28.505 180)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 180) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2B41)
+    (at 46.44 28.505 180)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 180) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2B59)
+    (at 41.49 69.035 180)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 180) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2B55)
+    (at 43.334 69.035 180)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 180) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2B51)
+    (at 42.55 69.035 180)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 180) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2B4D)
+    (at 44.118 69.035 180)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 180) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2B49)
+    (at 44.902 69.035 180)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 180) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2B45)
+    (at 45.686 69.035 180)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 180) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2B41)
+    (at 46.47 69.035 180)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 180) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2AA2)
+    (at 112.05 69.055)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2A9E)
+    (at 110.99 69.055)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2A9A)
+    (at 110.206 69.055)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2A96)
+    (at 109.422 69.055)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2A92)
+    (at 108.638 69.055)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2A8E)
+    (at 107.854 69.055)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2A8A)
+    (at 107.07 69.055)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2A3E)
+    (at 112.05 28.545)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2A3E)
+    (at 110.99 28.545)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2A3E)
+    (at 110.206 28.545)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2799)
+    (at 47.51 28.495 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2795)
+    (at 47.51 29.273 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE278D)
+    (at 47.51 30.051 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2789)
+    (at 47.51 30.829 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60AE2785)
+    (at 47.51 31.607 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60ADC7D3)
+    (at 105.98 28.543 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60ADC7CF)
+    (at 105.98 29.321 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60ADC7D7)
+    (at 105.98 30.099 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60ADC7D3)
+    (at 105.98 30.877 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 60ADC7CF)
+    (at 105.98 31.655 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:2MM_Stencil_Hole (layer F.Cu) (tedit 60679DFC) (tstamp 606803DB)
+    (at 43.74 73.61)
+    (fp_text reference REF** (at 0 3) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 2MM_Stencil_Hole (at 0 -3) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 2 2) (drill 2) (layers *.Cu *.Paste *.Mask))
+  )
+
+  (module Mousebites:2MM_Stencil_Hole (layer F.Cu) (tedit 60679DFC) (tstamp 606803C6)
+    (at 109.74 23.785)
+    (fp_text reference REF** (at 0 3) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 2MM_Stencil_Hole (at 0 -3) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 2 2) (drill 2) (layers *.Cu *.Paste *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 6067A364)
+    (at 47.4 74.865 270)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 270) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 6067A360)
+    (at 47.4 73.305 270)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 270) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 6067A35C)
+    (at 47.4 75.945 270)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 270) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 6067A358)
+    (at 47.4 74.085 270)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 270) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 6067A364)
+    (at 105.8 74.825 270)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 270) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 6067A360)
+    (at 105.8 73.265 270)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 270) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 6067A35C)
+    (at 105.8 75.905 270)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 270) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 6067A358)
+    (at 105.8 74.045 270)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 270) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 6067A364)
+    (at 105.8 22.625 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 6067A360)
+    (at 105.8 24.185 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 6067A35C)
+    (at 105.8 21.545 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 6067A358)
+    (at 105.8 23.405 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 6067A364)
+    (at 47.4 22.665 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 6067A360)
+    (at 47.4 24.225 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 6067A35C)
+    (at 47.4 21.585 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 6067A358)
+    (at 47.4 23.445 90)
+    (fp_text reference REF** (at 0 1 90) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1 90) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0 90) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FEAD046)
+    (at 107.07 28.545)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FEAD04C)
+    (at 107.854 28.545)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FEAD04C)
+    (at 108.638 28.545)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (module Mousebites:0.5mm-NPTH-Drill (layer F.Cu) (tedit 5E4C20B0) (tstamp 5FEAD04C)
+    (at 109.422 28.545)
+    (fp_text reference REF** (at 0 1) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value 0.5mm-NPTH-Drill (at 0 -1) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad "" np_thru_hole circle (at 0 0) (size 0.5 0.5) (drill 0.5) (layers *.Cu *.Mask))
+  )
+
+  (gr_line (start 47.74 65.085) (end 105.74 65.085) (layer Dwgs.User) (width 0.05) (tstamp 62063BBE))
+  (gr_line (start 47.74 57.635) (end 105.74 57.635) (layer Dwgs.User) (width 0.05) (tstamp 62063BBC))
+  (gr_line (start 47.74 50.185) (end 105.74 50.185) (layer Dwgs.User) (width 0.05) (tstamp 62063BBA))
+  (gr_line (start 47.74 42.735) (end 105.74 42.735) (layer Dwgs.User) (width 0.05) (tstamp 62063BB8))
+  (gr_line (start 47.74 35.285) (end 105.74 35.285) (layer Dwgs.User) (width 0.05) (tstamp 62063BB6))
+  (gr_line (start 47.74 69.535) (end 47.74 65.085) (layer Dwgs.User) (width 0.05) (tstamp 62063BB3))
+  (gr_line (start 47.74 62.085) (end 47.74 57.635) (layer Dwgs.User) (width 0.05) (tstamp 62063BB1))
+  (gr_line (start 47.74 54.635) (end 47.74 50.185) (layer Dwgs.User) (width 0.05) (tstamp 62063BAF))
+  (gr_line (start 47.74 47.185) (end 47.74 42.735) (layer Dwgs.User) (width 0.05) (tstamp 62063BAD))
+  (gr_line (start 47.74 39.735) (end 47.74 35.285) (layer Dwgs.User) (width 0.05) (tstamp 62063BAB))
+  (gr_line (start 47.74 69.535) (end 105.74 69.535) (layer Dwgs.User) (width 0.05) (tstamp 62063BA8))
+  (gr_line (start 47.74 62.085) (end 105.74 62.085) (layer Dwgs.User) (width 0.05) (tstamp 62063BA6))
+  (gr_line (start 47.74 54.635) (end 105.74 54.635) (layer Dwgs.User) (width 0.05) (tstamp 62063BA4))
+  (gr_line (start 47.74 47.185) (end 105.74 47.185) (layer Dwgs.User) (width 0.05) (tstamp 62063BA2))
+  (gr_line (start 47.74 39.735) (end 105.74 39.735) (layer Dwgs.User) (width 0.05) (tstamp 62063BA0))
+  (gr_line (start 105.74 65.085) (end 105.74 69.535) (layer Dwgs.User) (width 0.05) (tstamp 62063B9D))
+  (gr_line (start 105.74 57.635) (end 105.74 62.085) (layer Dwgs.User) (width 0.05) (tstamp 62063B9B))
+  (gr_line (start 105.74 50.185) (end 105.74 54.635) (layer Dwgs.User) (width 0.05) (tstamp 62063B99))
+  (gr_line (start 105.74 42.735) (end 105.74 47.185) (layer Dwgs.User) (width 0.05) (tstamp 62063B97))
+  (gr_line (start 105.74 35.285) (end 105.74 39.735) (layer Dwgs.User) (width 0.05) (tstamp 62063B95))
+  (gr_line (start 47.73 71.035) (end 105.72 71.035) (layer Eco1.User) (width 3) (tstamp 62063B92))
+  (gr_line (start 47.73 63.585) (end 105.72 63.585) (layer Eco1.User) (width 3) (tstamp 62063B90))
+  (gr_line (start 47.73 56.135) (end 105.72 56.135) (layer Eco1.User) (width 3) (tstamp 62063B8E))
+  (gr_line (start 47.73 48.685) (end 105.72 48.685) (layer Eco1.User) (width 3) (tstamp 62063B8C))
+  (gr_line (start 47.73 41.235) (end 105.72 41.235) (layer Eco1.User) (width 3) (tstamp 62063B8A))
+  (gr_line (start 47.73 63.585) (end 105.72 63.585) (layer Eco1.User) (width 3) (tstamp 62063B87))
+  (gr_line (start 47.73 56.135) (end 105.72 56.135) (layer Eco1.User) (width 3) (tstamp 62063B85))
+  (gr_line (start 47.73 48.685) (end 105.72 48.685) (layer Eco1.User) (width 3) (tstamp 62063B83))
+  (gr_line (start 47.73 41.235) (end 105.72 41.235) (layer Eco1.User) (width 3) (tstamp 62063B81))
+  (gr_line (start 47.73 33.785) (end 105.72 33.785) (layer Eco1.User) (width 3) (tstamp 62063B7F))
+  (gr_text "CUT OUT" (at 76.32 63.705) (layer Cmts.User) (tstamp 620639C4)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "CUT OUT" (at 76.32 56.255) (layer Cmts.User) (tstamp 620639C2)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "CUT OUT" (at 76.32 48.805) (layer Cmts.User) (tstamp 620639C0)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "CUT OUT" (at 76.32 41.355) (layer Cmts.User) (tstamp 620639BE)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "CUT OUT" (at 76.32 33.905) (layer Cmts.User) (tstamp 620639BC)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "CUT OUT" (at 76.32 71.185) (layer Cmts.User) (tstamp 620639B9)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "CUT OUT" (at 76.32 63.735) (layer Cmts.User) (tstamp 620639B7)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "CUT OUT" (at 76.32 56.285) (layer Cmts.User) (tstamp 620639B5)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "CUT OUT" (at 76.32 48.835) (layer Cmts.User) (tstamp 620639B3)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "CUT OUT" (at 76.32 41.385) (layer Cmts.User) (tstamp 620639B1)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "CUT OUT" (at 76.32 33.935) (layer Cmts.User) (tstamp 60AE28F3)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_line (start 47.73 33.785) (end 105.72 33.785) (layer Eco1.User) (width 3) (tstamp 60AE28E8))
+  (gr_text "Array: 1x6\nOffset: --- x 7.45 mm\nBoard Thickness:  0x8 mm" (at 40.9 17.705) (layer Dwgs.User)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  )
+  (gr_line (start 47.73 26.335) (end 105.72 26.335) (layer Eco1.User) (width 3))
+  (gr_text "CUT OUT" (at 76.32 26.455) (layer Cmts.User) (tstamp 5FEADA43)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_line (start 112.74 76.61) (end 40.74 76.61) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 40.74 76.61) (end 40.74 20.785) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 40.74 20.785) (end 112.74 20.785) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 112.74 76.61) (end 112.74 20.785) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 47.74 27.835) (end 105.74 27.835) (layer Dwgs.User) (width 0.05) (tstamp 5FE79672))
+  (gr_line (start 47.74 32.285) (end 105.74 32.285) (layer Dwgs.User) (width 0.05) (tstamp 5FE7966E))
+  (gr_line (start 47.74 32.285) (end 47.74 27.835) (layer Dwgs.User) (width 0.05) (tstamp 5FE79669))
+  (gr_line (start 105.74 27.835) (end 105.74 32.285) (layer Dwgs.User) (width 0.05) (tstamp 5FE79666))
+
+)
